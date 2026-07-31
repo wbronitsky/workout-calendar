@@ -7,10 +7,11 @@ Personal Peloton / strength plan (Jul–Sep 2026).
 ## Add to iPhone home screen (Firefox)
 
 1. Open the live link above in **Firefox**
-2. Tap the **☰ menu** (bottom right)
-3. Tap **Share**
-4. Tap **Add to Home Screen**
-5. Confirm the name (*Workouts*) and tap **Add**
+2. Tap **Share** (square with an ↑ arrow). If you don’t see it, tap **⋯** (three dots) → **Share**
+3. In the share sheet, scroll down and tap **Add to Home Screen**
+4. Tap **Add**
+
+If “Add to Home Screen” isn’t listed, scroll farther in the share sheet, or tap **Edit Actions** and enable it.
 
 ICS download: [workout-calendar-2026-jul-sep.ics](./workout-calendar-2026-jul-sep.ics)
 
