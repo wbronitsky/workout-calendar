@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Workout Calendar · Jul 30 – Sep 30, 2026</title>
+<meta name="theme-color" content="#2f5d50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Workouts">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f5d50'/%3E%3Cpath fill='%23f3efe6' d='M6 13h3v6H6zm17 0h3v6h-3zM9 14.5h14v3H9zM4 11.5h2.5v9H4zm21.5 0H28v9h-2.5z'/%3E%3C/svg%3E">
 <style>
   :root {
@@ -209,10 +217,41 @@
 
   .notes li { margin-bottom: 0.25rem; }
 
+  .install {
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.55);
+    font-size: 0.85rem;
+    color: var(--muted);
+    max-width: 36rem;
+  }
+
+  .install strong { color: var(--ink); }
+
+  .install a {
+    color: var(--strength);
+    font-weight: 650;
+    word-break: break-all;
+  }
+
+  .install ol {
+    margin: 0.5rem 0 0;
+    padding-left: 1.2rem;
+  }
+
+  .install li { margin-bottom: 0.2rem; }
+
+  @media (display-mode: standalone) {
+    .install { display: none; }
+  }
+
   @media print {
     body { background: white; padding: 0.5rem; }
     .month { break-inside: avoid; }
     .day { min-height: 5.5rem; }
+    .install { display: none; }
   }
 
   @media (max-width: 720px) {
@@ -227,6 +266,14 @@
   <h1>Workout Calendar</h1>
   <p>July 30 – September 30, 2026 · Upper-body emphasis · Festivals/travel = active recovery</p>
   <p style="margin-top:0.4rem;font-size:0.85rem;color:var(--muted)">Click any workout to mark it done · saved in this browser</p>
+  <div class="install">
+    <strong>Add to your phone home screen</strong><br>
+    Open: <a href="https://wbronitsky.github.io/workout-calendar/">https://wbronitsky.github.io/workout-calendar/</a>
+    <ol>
+      <li><strong>iPhone:</strong> Safari → Share → Add to Home Screen</li>
+      <li><strong>Android:</strong> Chrome → menu ⋮ → Add to Home screen / Install app</li>
+    </ol>
+  </div>
   <div class="legend">
     <span><i class="swatch" style="background:var(--strength-bg);border:1px solid var(--strength)"></i> Strength</span>
     <span><i class="swatch" style="background:var(--ride-bg);border:1px solid var(--ride)"></i> Ride</span>
