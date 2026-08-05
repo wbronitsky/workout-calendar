@@ -65,22 +65,22 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-20260805@plan
-DTSTAMP:20260801T142000Z
-SEQUENCE:4
+DTSTAMP:20260805T154500Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:🚴 35 min Music-Focused Ride
-DESCRIPTION:Week 1: Re-entry
+SUMMARY:Rest / Walk / Mobility
+DESCRIPTION:Extra rest — sore from Aug 4 Full Body + lingering post-migraine headache. Music ride absorbed\; do not make it up this week.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-20260806@plan
-DTSTAMP:20260801T142000Z
-SEQUENCE:5
+DTSTAMP:20260805T154500Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-SUMMARY:💪 30 min Upper Body Strength
-DESCRIPTION:Day before festival — upper only\, leaves legs fresh for Aug 7–9
+SUMMARY:💪 30 min Upper Body Strength (easy if head still achy)
+DESCRIPTION:Day before festival — upper only\, leaves legs fresh for Aug 7–9. Keep loads easy if headache lingers.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
