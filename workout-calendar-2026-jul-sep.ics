@@ -65,12 +65,12 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-20260805@plan
-DTSTAMP:20260805T154500Z
-SEQUENCE:5
+DTSTAMP:20260805T155700Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:Rest / Walk / Mobility
-DESCRIPTION:Extra rest — sore from Aug 4 Full Body + lingering post-migraine headache. Music ride absorbed\; do not make it up this week.
+SUMMARY:🚴 30 min Music-Focused Ride (breezy / easy)
+DESCRIPTION:Keep it conversational\; stop if head pain increases. Legs still recover from Aug 4 Full Body before festival.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
