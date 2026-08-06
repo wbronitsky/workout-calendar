@@ -75,21 +75,22 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-20260806@plan
-DTSTAMP:20260805T154500Z
-SEQUENCE:6
+DTSTAMP:20260806T140000Z
+SEQUENCE:7
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-SUMMARY:💪 30 min Upper Body Strength (easy if head still achy)
-DESCRIPTION:Day before festival — upper only\, leaves legs fresh for Aug 7–9. Keep loads easy if headache lingers.
+SUMMARY:Rest
+DESCRIPTION:Tired / no time — Upper Body shifted to Aug 7.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-20260807@plan
-DTSTAMP:20260730T170000Z
+DTSTAMP:20260806T140000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-SUMMARY:🚴 20 min Low Impact Ride + Mobility · Festival (active recovery)
-DESCRIPTION:Festival Weekend — treat as active recovery\, not a missed workout
+SUMMARY:💪 30 min Upper Body Strength (easy) · Festival
+DESCRIPTION:Shifted from Aug 6. Keep it easy — festival day\; stop if energy is low.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -112,11 +113,12 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-20260810@plan
-DTSTAMP:20260730T170000Z
+DTSTAMP:20260806T140000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
-SUMMARY:Rest
-DESCRIPTION:Build Week
+SUMMARY:💪 20 min Upper Body (light) + 🚴 Optional 15–20 min Low Impact
+DESCRIPTION:Light re-entry after festival weekend. Keep loads easy\; skip the ride if still wiped.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
